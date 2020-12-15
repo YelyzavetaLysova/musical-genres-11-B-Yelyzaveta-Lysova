@@ -1,0 +1,228 @@
+﻿body {
+    background-color: #F4F1DE;
+    font-family: Tahoma;
+    margin: 0;
+    color: #000000;
+}
+
+.navbar {
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    top: 0px;
+    background-color: #81B29A;
+    z-index: 9;
+}
+
+.burger {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 35px;
+    height: 35px;
+    margin: 10px 40px 10px 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/menu.png);
+    cursor: pointer;
+    display: block;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input + .burger + div {
+    display: none;
+}
+
+input:checked + .burger + div {
+    display: block;
+}
+
+.menu {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 61px;
+    padding: 20px 0 20px 0px;
+    display: none;
+    background-color: #e07a5f;
+    height: auto;
+}
+
+.menu-item {
+    margin-right: 20px;
+}
+
+    .menu-item a {
+        text-decoration: none;
+        color: rgb(14, 14, 14);
+    }
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.hero-block {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    width: 90%;
+    text-align: left;
+}
+
+.block-1 {
+    width: 90%;
+    margin: 25px 10px 25px 10px;
+    display: flex;
+    flex: 1 1 auto;
+    max-width: 475px;
+    max-height: 260px;
+    box-shadow: 0 0 10px #000000;
+    transition: all 0.25s ease;
+}
+
+.block-1:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px #000000;
+}    
+
+.picture-block {
+    margin: 10px;
+    width: 40%;
+}
+
+.text-block {
+    margin: 10px;
+    width: 60%;
+    
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+}
+
+.insta-link:hover {
+    transform: scale(1.03);
+}
+
+.insta-link {
+    width: 17%;
+    height: 17%;
+    transition: all 0.25s ease;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.link a {
+    color: black;
+    font-size: 17px;
+    transition: all 0.25s ease;
+}
+
+.link:hover {
+    transform: scale(1.02);
+    margin-left: 3px;
+}
+
+.title-1 {
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 50px 0 15px 0;
+    text-align: center;
+    width: 100%;
+    margin: 25px 0px 15px 0px;
+    background-size: cover;
+    color:white;
+}
+
+.video-block iframe {
+    margin-top: 15px;
+    width: 100%;    
+}
+
+.galery-block {
+    display: flex;
+    margin-top: 15px;
+}
+
+.picture-g {
+    width: 30%;
+    margin: 1%;
+    transition: all 0.25s ease;
+}
+
+.picture-g:hover {
+    transform: scale(1.02);
+}
+
+.insta-link-1:hover {
+    transform: scale(1.03);
+}
+
+.insta-link-1 {
+    width: 10%;
+    height: 10%;
+    transition: all 0.25s ease;
+    margin-top: 15px;
+}
+
+.map-block iframe {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.media-block {
+    display: flex;
+}
+
+.view-block{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.title-s {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.statistic {
+    text-align: right;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #e07a5f;
+    padding: 3px;
+    margin-bottom: 25px;
+}
+
+.statistic-block {
+    width: 90%;
+    transition: all 0.25s ease;
+}
+
+    .statistic-block:hover {
+        transform: scale(1.02);
+    }
